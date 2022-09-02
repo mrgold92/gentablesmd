@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>draft</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<div class="all">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 class="text-center">Markdown Table Generator</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container container-inputs mt-5">
+        <div class="row">
+            <div class="col col-5 text-center">
+                <label for="Cols" >Cols</label>
+                <input value="1" min="1" id="cols" type="number" name="cols">
+            </div>
+            <div class="col col-5 text-center">
+                <label for="Rows">Rows</label>
+                <input value="1" min="1" id="rows" type="number"  name="rows">
+            </div>
+            <div class="col col-2 text-center">
+                <button id="btn" class="btn btn-success mt-4" type="button">Generar</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col d-xxl-flex flex-column align-items-xxl-start"><label
+                    class="form-label">Resultado:</label>
+                <textarea id="textarea" rows="10" readonly=""></textarea></div>
+        </div>
+    </div>
+</div>
+
+<wc-toast position="top-left"></wc-toast>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="module" src="main.js"></script>
+</body>
+
+</html>

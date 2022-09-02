@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eeebeb;
+}
+
+.container-inputs .row .col input {
+    width: 100%;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+button, textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    border-radius: 4px;
+    overflow-y: scroll;
+}
+
+label {
+    justify-content: center;
+    text-align: center;
+}
+
+.all {
+
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+    background: #EEF0F4;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px #D9DADE, -9.91px -9.91px 15px #eeebeb;
+    align-items: center;
+    padding: 30px
+}
