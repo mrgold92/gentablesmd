@@ -50,7 +50,7 @@ $btn.addEventListener('click', () => {
 
         navigator.clipboard.writeText(template)
             .then(() => {
-                toast('¡Copiado al portapeles!', {
+                toast('¡Copiado al portapapeles!', {
                     icon: {
                         type: 'success'
                     }
